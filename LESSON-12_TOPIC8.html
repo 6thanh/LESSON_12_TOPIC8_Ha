@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LESSON-12 TOPIC-8</title>
+	<style>
+		#vuong {
+			width: 100px;
+			height: 100px;
+			background: red;
+			border-radius: 50%;
+			animation: tron 5s infinite;
+		}
+		@keyframes tron {
+			0% { border-radius: 50%; background: red;}
+			25% { 	width: 150px;
+					height: 150px;
+					border-radius: 25%;
+					background: green;}
+			50% { 	width: 200px;
+					height: 200px;
+					border-radius: 0%;
+					background: blue;}
+			75% { 	width: 150px;
+					height: 150px;
+					border-radius: 25%;
+					background: green;}		
+			100% { 	width: 100px;
+					height: 100px;
+					border-radius: 50%;
+					background: yellow;}
+		}
+	</style>
+</head>
+<body>
+	<div id="vuong"></div>
+</body>
+</html>
